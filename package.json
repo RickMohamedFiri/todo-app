@@ -2,7 +2,9 @@
   "name": "cosypos",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://RickMohamedFiri.github.io/cosypos",
   "scripts": {
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -20,5 +22,8 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
     "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
